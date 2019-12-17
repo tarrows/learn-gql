@@ -1,0 +1,6 @@
+{
+  "verbose": true,
+  "ext": "ts",
+  "ignore": ["**/*.test.ts", "node_modules"],
+  "exec": "ts-node server/main.ts"
+}

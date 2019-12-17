@@ -1,6 +1,6 @@
-const express = require('express');
-const { ApolloServer } = require('apollo-server-express');
-const faker = require('faker')
+import express from 'express'
+import { ApolloServer } from 'apollo-server-express'
+import faker from 'faker'
 
 const typeDefs = `
   type Book {
