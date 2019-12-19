@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nodemon",
+    "codegen": "graphql-codegen --config codegen.yml",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -15,6 +16,12 @@
     "graphql-tools": "^4.0.6"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "^1.9.1",
+    "@graphql-codegen/introspection": "^1.9.1",
+    "@graphql-codegen/typescript": "^1.9.1",
+    "@graphql-codegen/typescript-operations": "^1.9.1",
+    "@graphql-codegen/typescript-react-apollo": "^1.9.1",
+    "@graphql-codegen/typescript-resolvers": "^1.9.1",
     "@types/faker": "^4.1.8",
     "faker": "^4.1.0",
     "nodemon": "^2.0.2",
